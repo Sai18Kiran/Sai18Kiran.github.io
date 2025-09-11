@@ -72,8 +72,8 @@
 
   "skills": {
     "programmingScriptingLanguages": [
-      "Python (Pandas, NumPy, Spark)",
-      "SQL (PostgreSQL, MySQL, Snowflake)",
+      "Python",
+      "SQL",
       "Bash",
       "Scala",
       "JavaScript",
@@ -84,7 +84,7 @@
       "Data Modeling",
       "Data Warehousing",
       "Apache Airflow",
-      "dbt (Data Build Tool)",
+      "dbt",
       "Apache Spark",
       "Apache Beam",
       "Alteryx",
@@ -93,7 +93,7 @@
     ],
     "databasesStorage": [
       "PostgreSQL",
-      "MySQL", 
+      "MySQL",
       "Snowflake",
       "Amazon Redshift",
       "MongoDB",
@@ -109,9 +109,9 @@
       "Apache Kafka",
       "AWS Kinesis",
       "Spark Streaming",
-      "Apache Flink",
+      "Flink",
       "Apache NiFi",
-      "Apache Hive"
+      "Hive"
     ],
     "aiMlTooling": [
       "MLflow",
