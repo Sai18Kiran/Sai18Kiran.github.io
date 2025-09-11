@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git remote get-url:*)",
+      "Bash(git fetch:*)",
+      "Bash(git checkout:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(gh repo create:*)",
+      "Bash(git remote:*)",
+      "Bash(git push:*)",
+      "Bash(tree:*)",
+      "Bash(dir:*)",
+      "Bash(findstr:*)",
+      "WebSearch",
+      "WebFetch(domain:seeklogo.com)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "Bash(curl:*)",
+      "WebFetch(domain:commons.wikimedia.org)",
+      "WebFetch(domain:biet.ac.in)",
+      "Bash(python:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(git init:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

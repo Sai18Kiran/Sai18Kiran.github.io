@@ -1,0 +1,338 @@
+{
+  "profile": {
+    "name": "Sai Kiran Reddy Kondreddygari",
+    "title": "Data Engineer",
+    "organization": "Saint Louis, MO | 4+ Years Experience",
+    "profileImage": "assets/sai-profile.jpg",
+    "cvPath": "assets/Sai_Kiran_Resume.pdf",
+    "metrics": [
+      "4+ Years Experience",
+      "5TB+ Daily Processing",
+      "42% Performance Improvement",
+      "35% Runtime Reduction"
+    ]
+  },
+
+  "bio": {
+    "introduction": "<span class=\"highlight\">Data Engineer</span> with <span class=\"highlight\">4+ years</span> of experience building scalable data pipelines, optimizing data infrastructure, and enabling real-time analytics across cloud and on-prem environments. Skilled in <span class=\"highlight\">Python, SQL, Spark, and AWS</span> with a strong focus on data quality, performance, and cross-functional collaboration.",
+    "background": "Expertise spans <span class=\"highlight\">ETL/ELT pipeline development, data modeling, streaming analytics, and cloud architecture</span>. Proven ability to deliver reliable, efficient data solutions that support strategic decision-making and enterprise growth across healthcare and finance industries.",
+    "researchFocus": "Professional focus on <span class=\"highlight\">real-time data processing</span>, <span class=\"highlight\">cloud-native architectures</span>, and <span class=\"highlight\">scalable data infrastructure</span>. Experienced with AWS, GCP, Apache Spark, Kafka, and modern data stack technologies."
+  },
+
+  "contact": {
+    "email": "kondreddygarisaikiranreddy18@gmail.com",
+    "phone": "+1 (917) 704-9894",
+    "location": "Saint Louis, MO",
+    "linkedin": "https://linkedin.com/in/sai-kiran-reddy-kondreddygari",
+    "github": null,
+    "googleScholar": null,
+    "twitter": null,
+    "website": null,
+    "trailhead": null
+  },
+
+  "navigation": [
+    {"label": "About", "href": "#banner"},
+    {"label": "Experience", "href": "#publications"},
+    {"label": "Projects", "href": "#projects"},
+    {"label": "Skills", "href": "#skills"},
+    {"label": "Education", "href": "#education"},
+    {"label": "Contact", "href": "mailto:kondreddygarisaikiranreddy18@gmail.com"}
+  ],
+
+  "publications": [
+    {
+      "id": "unitedhealth-group",
+      "title": "Data Engineer",
+      "authors": "UnitedHealth Group",
+      "venue": "Jul 2024 – Present",
+      "description": "<div class='impact-metrics'><span class='metric'>5TB+ Daily Processing</span><span class='metric'>42% ↑ Performance</span><span class='metric'>35% ↓ Runtime</span></div><br/><strong>Key Achievements:</strong><br/>• Built <strong>12 ETL pipelines</strong> in AWS Glue and EMR processing over <strong>5TB of claims data daily</strong>, enabling analytics for finance, clinical, and actuarial reporting teams<br/>• Integrated real-time vitals data from <strong>7 IoT sources</strong> using Kafka and Spark Streaming, <span class='highlight'>reducing response latency in critical patient alerts</span><br/>• Developed a <strong>Delta Lake-based architecture</strong> on S3, <span class='highlight'>improving query performance by 42% and cutting storage costs by 18%</span><br/>• Created <strong>dbt models and Great Expectations checks</strong> for 30 datasets, <span class='highlight'>reducing downstream data failures and invalid joins by 28%</span><br/>• Automated monthly <strong>HIPAA compliance reports</strong> with Python scripts and SQL procedures, <span class='highlight'>eliminating 20+ hours of manual work per cycle</span><br/>• Collaborated on <strong>3 predictive risk scoring models</strong> deployed via AWS Lambda and Feature Store, supporting near real-time scoring of <strong>2M+ patient records weekly</strong><br/>• Tuned Spark job configurations and S3 partitioning strategy to <span class='highlight'>reduce pipeline runtime by 35%</span>",
+      "image": "images/org/unitedhealth.svg",
+      "links": { "paper": null, "github": null, "status": null }
+    },
+    {
+      "id": "mphasis",
+      "title": "Data Engineer",
+      "authors": "Mphasis",
+      "venue": "Jan 2021 – Dec 2022",
+      "description": "<div class='impact-metrics'><span class='metric'>17 Pipelines Migrated</span><span class='metric'>73% ↑ Reliability</span><span class='metric'>32% ↓ Storage Costs</span></div><br/><strong>Key Achievements:</strong><br/>• Migrated <strong>17 batch pipelines</strong> to Apache Airflow and Spark on GCP, <span class='highlight'>improving pipeline reliability by 73% and reducing job runtime</span><br/>• Built enterprise data warehouse on <strong>BigQuery for banking client</strong>, supporting 100+ dashboards and handling <strong>4TB of structured financial transaction data</strong><br/>• Deployed streaming fraud detection pipeline using <strong>Kafka and Flink</strong>, achieving <span class='highlight'>&lt;30-second latency and flagging ~1,200 suspicious transactions daily</span><br/>• Reduced data storage costs by <strong>32%</strong> through partition pruning and format optimization for Parquet files across multiple GCS data zones<br/>• Created <strong>Jenkins-based CI/CD pipeline</strong> and deployed infrastructure with Terraform, <span class='highlight'>cutting provisioning time from 2 days to under 4 hours</span><br/>• Designed over <strong>25 reusable dbt models</strong> for business logic transformation and lineage tracking, improving developer onboarding and cross-team collaboration<br/>• Documented <strong>30+ datasets</strong> and created interactive lineage maps in Confluence, <span class='highlight'>improving query troubleshooting time by 40%</span>",
+      "image": "images/cybage-software-logo.png",
+      "links": { "paper": null, "github": null, "status": null }
+    },
+    {
+      "id": "cybage-software-analyst",
+      "title": "Data Analyst",
+      "authors": "Cybage Software",
+      "venue": "Jan 2020 – Dec 2020",
+      "description": "<div class='impact-metrics'><span class='metric'>30+ Dashboards</span><span class='metric'>80% ↓ Load Failures</span><span class='metric'>7.5% ↑ Conversion</span></div><br/><strong>Key Achievements:</strong><br/>• Automated <strong>30+ Tableau dashboards</strong> for supply chain metrics, <span class='highlight'>reducing manual Excel reporting efforts by 12 hours weekly</span> for client logistics teams<br/>• Cleaned and processed <strong>10M+ rows of transactional data monthly</strong>, enabling analysis of delivery success rates, delays, and customer return trends<br/>• Conducted <strong>A/B test analysis</strong> for two checkout feature changes, contributing to a <span class='highlight'>7.5% increase in conversion rates over three months</span><br/>• Developed <strong>Python-based loaders and schedulers</strong> for ingestion workflows, <span class='highlight'>decreasing daily load failures by 80%</span> within the first quarter of deployment<br/>• Built SQL scripts to calculate delivery SLA breaches, helping business operations renegotiate terms with <strong>four low-performing vendors</strong><br/>• Supported marketing attribution analysis using UTM tracking and session data, identifying <strong>top three performing campaigns by ROI</strong> over six months<br/>• Delivered weekly ad-hoc insights for product and operations teams, facilitating decisions around inventory stocking and shipping prioritization during peak events",
+      "image": "images/cybage-software-logo.png",
+      "links": { "paper": null, "github": null, "status": null }
+    }
+  ],
+
+  "skills": {
+    "programmingScriptingLanguages": [
+      "Python (Pandas, NumPy, Spark)",
+      "SQL (PostgreSQL, MySQL, Snowflake)",
+      "Bash",
+      "Scala",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "dataEngineeringPipelineDevelopment": [
+      "ETL/ELT Pipelines",
+      "Data Modeling",
+      "Data Warehousing",
+      "Apache Airflow",
+      "dbt (Data Build Tool)",
+      "Apache Spark",
+      "Apache Beam",
+      "Alteryx",
+      "Talend",
+      "Informatica"
+    ],
+    "databasesStorage": [
+      "PostgreSQL",
+      "MySQL", 
+      "Snowflake",
+      "Amazon Redshift",
+      "MongoDB",
+      "Delta Lake",
+      "Parquet"
+    ],
+    "cloudDistributedSystems": [
+      "AWS (S3, Lambda, Glue, EMR, Redshift, Athena)",
+      "GCP (BigQuery, Dataflow)",
+      "Azure Data Factory"
+    ],
+    "streamingRealTimeProcessing": [
+      "Apache Kafka",
+      "AWS Kinesis",
+      "Spark Streaming",
+      "Apache Flink",
+      "Apache NiFi",
+      "Apache Hive"
+    ],
+    "aiMlTooling": [
+      "MLflow",
+      "TensorFlow",
+      "Feature Stores",
+      "Jupyter",
+      "Hugging Face Transformers (for NLP)",
+      "OpenAI APIs",
+      "LLMs",
+      "Supervised & Unsupervised Learning",
+      "Hadoop"
+    ],
+    "dataScienceCollaboration": [
+      "Model Deployment Support",
+      "Feature Engineering",
+      "Data Preprocessing",
+      "Experiment Tracking",
+      "A/B Testing Pipelines"
+    ],
+    "infrastructureDevOps": [
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "Git",
+      "Jenkins",
+      "CI/CD pipelines",
+      "Monitoring (Prometheus, Grafana, ELK Stack)"
+    ],
+    "versionControlCollaboration": [
+      "GitHub",
+      "GitLab",
+      "Confluence",
+      "Jira"
+    ],
+    "softSkills": [
+      "Agile Development",
+      "Stakeholder Communication",
+      "Technical Documentation",
+      "Best Practices",
+      "Problem Solving",
+      "Attention to Detail"
+    ]
+  },
+
+  "projects": [
+    {
+      "id": "iot-temperature-analytics-spark-kafka",
+      "title": "Real-Time IoT Temperature Analytics with Spark & Kafka",
+      "year": "2023-2024",
+      "shortDescription": "Real-time temperature analysis from U.S. nationwide IoT sensors using Apache Spark and Kafka for streaming data processing and analytics.",
+      "detailedDescription": "Developed a comprehensive real-time data processing system for analyzing U.S. nationwide temperature data from IoT sensors using Apache Spark and Kafka. Built custom IoT data simulator to generate realistic temperature sensor data across multiple U.S. states. Implemented Kafka server for high-throughput data streaming and PySpark for real-time data processing and analytics. Created four key analytical capabilities: average temperature by state in descending order, total messages processed, number of sensors per state, and total sensor count. Successfully processed 10,000 simulated sensor data points from 2,086 sensors, demonstrating scalable IoT data processing pipeline. Project showcases modern big data technologies for real-time analytics and provides practical implementation of streaming data architecture for IoT applications.",
+      "media": {
+        "type": "image",
+        "src": "images/real-time-pipeline.png",
+        "poster": null,
+        "autoplay": false,
+        "loop": false,
+        "muted": false,
+        "controls": false
+      },
+      "techStack": ["Apache Spark", "Apache Kafka", "PySpark", "Python", "IoT Simulation", "Real-time Analytics", "AWS Cloud", "Data Streaming"],
+      "links": {
+        "website": null,
+        "github": "https://github.com/Sai18Kiran/spark-and-kafka_iot-data-processing-and-analytics",
+        "details": "#iot-temperature-analytics-spark-kafka"
+      },
+      "metrics": [
+        { "label": "Data Points Processed", "value": "10,000" },
+        { "label": "Total Sensors", "value": "2,086" },
+        { "label": "Real-time Analytics", "value": "4 Key Metrics" }
+      ]
+    },
+    {
+      "id": "dbt-data-pipeline-gcp",
+      "title": "Data Pipeline with DBT, Airflow & BigQuery on GCP",
+      "year": "2023",
+      "shortDescription": "Modern data engineering pipeline using Astronomer, DBT, Soda, and Metabase with Apache Airflow orchestration on Google Cloud Platform.",
+      "detailedDescription": "Designed and implemented a comprehensive data engineering pipeline demonstrating modern data stack technologies on Google Cloud Platform. Built end-to-end workflow using Apache Airflow for orchestration, DBT for data transformation into star schema, Soda for data quality validation, and Metabase for visualization. Integrated Docker containerization for scalable deployment and used BigQuery as the data warehouse. Processed Online Retail II dataset from Kaggle containing UK-based online retailer transactions from 2009-2011. Implemented automated data quality checks, business logic transformations, and interactive dashboards. Project serves as a comprehensive learning platform for modern data engineering practices, showcasing industry-standard tools and methodologies for building reliable, scalable data pipelines.",
+      "media": {
+        "type": "image",
+        "src": "images/snowflake-migration.png",
+        "poster": null,
+        "autoplay": false,
+        "loop": false,
+        "muted": false,
+        "controls": false
+      },
+      "techStack": ["Apache Airflow", "DBT", "Soda", "Google BigQuery", "Metabase", "Docker", "GCP", "Data Quality"],
+      "links": {
+        "website": null,
+        "github": "https://github.com/Sai18Kiran/data-pipeline-with-dbt-using-airflow-on-gcp",
+        "details": "#dbt-data-pipeline-gcp"
+      },
+      "metrics": [
+        { "label": "Pipeline Components", "value": "5 Technologies" },
+        { "label": "Data Transformation", "value": "Star Schema" },
+        { "label": "Deployment", "value": "Containerized" }
+      ]
+    },
+    {
+      "id": "ml-fraud-detection-aws",
+      "title": "Machine Learning Fraud Detection on AWS",
+      "year": "2022-2023",
+      "shortDescription": "Comprehensive fraud detection system using XGBoost and RandomCutForest algorithms on AWS SageMaker for real-time transaction monitoring.",
+      "detailedDescription": "Developed a robust machine learning-based fraud detection system using AWS cloud services to combat online fraud and abuse. Implemented both supervised (XGBoost Gradient Boosted Decision Tree) and unsupervised (RandomCutForest) machine learning algorithms using Amazon SageMaker. Processed ULB credit card transaction dataset containing 284,807 transactions with 492 fraudulent cases, handling highly imbalanced data through upsampling and weight adjustment techniques. Built complete ML pipeline including data preprocessing, model training, real-time endpoint deployment, and REST API creation using Lambda and API Gateway. Implemented data storage and preprocessing with Kinesis Firehose for scalable transaction processing. System designed to be dynamic, self-improving, and maintainable, providing real-time fraud detection capabilities for financial institutions.",
+      "media": {
+        "type": "image",
+        "src": "images/compliance-reporting.png",
+        "poster": null,
+        "autoplay": false,
+        "loop": false,
+        "muted": false,
+        "controls": false
+      },
+      "techStack": ["AWS SageMaker", "XGBoost", "RandomCutForest", "Lambda", "API Gateway", "Kinesis Firehose", "Python", "Machine Learning"],
+      "links": {
+        "website": null,
+        "github": "https://github.com/Sai18Kiran/fraud-detection-using-machine-learning",
+        "details": "#ml-fraud-detection-aws"
+      },
+      "metrics": [
+        { "label": "Transactions Analyzed", "value": "284,807" },
+        { "label": "ML Algorithms", "value": "2 Models" },
+        { "label": "Deployment", "value": "Real-time API" }
+      ]
+    },
+    {
+      "id": "banking-analytics-powerbi",
+      "title": "Financial Insights Dashboard with PowerBI",
+      "year": "2022",
+      "shortDescription": "Comprehensive banking analytics platform using PowerBI for transaction analysis, credit scoring, and branch performance evaluation.",
+      "detailedDescription": "Created a comprehensive financial analytics dashboard using PowerBI to transform banking transaction data into actionable business insights. Processed and analyzed two primary datasets: banking transactions and customer account details, implementing advanced data cleaning, transformation, and DAX calculations. Built interactive visualizations for transaction trend analysis, credit score evaluation, branch efficiency rating, and customer demographic analysis. Designed sophisticated branch performance metrics and customer segmentation capabilities. Delivered enhanced risk management tools through comprehensive credit score analysis and predictive modeling for account growth forecasting. Project demonstrates the power of data visualization in transforming raw banking data into strategic decision-making tools for financial institutions, providing detailed insights into customer behavior, operational efficiency, and business performance.",
+      "media": {
+        "type": "image",
+        "src": "images/ecommerce-analytics.png",
+        "poster": null,
+        "autoplay": false,
+        "loop": false,
+        "muted": false,
+        "controls": false
+      },
+      "techStack": ["Power BI", "DAX", "Excel", "Data Modeling", "Financial Analytics", "Data Visualization", "Banking Data", "Business Intelligence"],
+      "links": {
+        "website": null,
+        "github": "https://github.com/Sai18Kiran/financial-insights-in-banking-data-using-powerbi",
+        "details": "#banking-analytics-powerbi"
+      },
+      "metrics": [
+        { "label": "Data Sources", "value": "2 Datasets" },
+        { "label": "Analysis Types", "value": "Multi-dimensional" },
+        { "label": "Visualization", "value": "Interactive Dashboard" }
+      ]
+    },
+    {
+      "id": "flink-fraud-detection-demo",
+      "title": "Real-Time Fraud Detection Demo with Apache Flink",
+      "year": "2021-2022",
+      "shortDescription": "Interactive real-time fraud detection system using Apache Flink and Kafka with containerized deployment and web interface.",
+      "detailedDescription": "Developed an interactive fraud detection demonstration system using Apache Flink for real-time stream processing and Kafka for data ingestion. Built comprehensive containerized solution using Docker and Docker Compose for easy deployment and scalability. Implemented web-based interface accessible at localhost:5656 for interactive demonstration and monitoring of fraud detection capabilities. Designed as a learning and educational platform to showcase modern streaming technologies and fraud detection techniques. Project emphasizes practical implementation of real-time analytics using industry-standard tools, providing hands-on experience with streaming data processing, fraud detection algorithms, and scalable system architecture. Serves as a comprehensive demo environment for understanding real-time fraud detection workflows and modern data engineering practices.",
+      "media": {
+        "type": "image",
+        "src": "images/customer-dashboard.png",
+        "poster": null,
+        "autoplay": false,
+        "loop": false,
+        "muted": false,
+        "controls": false
+      },
+      "techStack": ["Apache Flink", "Apache Kafka", "Docker", "Docker Compose", "Java", "TypeScript", "Web Interface", "Real-time Processing"],
+      "links": {
+        "website": null,
+        "github": "https://github.com/Sai18Kiran/lab-fraud-detection",
+        "details": "#flink-fraud-detection-demo"
+      },
+      "metrics": [
+        { "label": "Processing", "value": "Real-time" },
+        { "label": "Interface", "value": "Web-based UI" },
+        { "label": "Deployment", "value": "Docker Containerized" }
+      ]
+    }
+  ],
+
+  "certifications": [
+    {
+      "name": "Generative AI Fundamentals",
+      "issuer": "Databricks",
+      "year": "2024",
+      "logo": null
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "Masters in Data Analytics",
+      "institution": "Webster University",
+      "location": "St Louis, MO",
+      "year": "Jan 2023 – Dec 2024",
+      "logo": "images/edu/webster-university.svg"
+    },
+    {
+      "degree": "Bachelors in Electrical and Electronics Engineering",
+      "institution": "Bharti Institute of Engineering and Technology",
+      "location": "India",
+      "year": "Jul 2018 – May 2022",
+      "logo": "images/edu/bharti-institute.jpg"
+    }
+  ],
+
+  "siteConfig": {
+    "siteTitle": "Sai Kiran Reddy Kondreddygari - Data Engineer",
+    "favicon": null,
+    "themeColors": {
+      "primaryRed": "#2E86AB",
+      "lightRed": "#3498DB",
+      "darkRed": "#1B4F72",
+      "textDark": "#2C3E50",
+      "textLight": "#6c757d",
+      "bgLight": "#f8f9fa",
+      "white": "#ffffff"
+    },
+    "domain": null,
+    "googleAnalytics": null
+  }
+}
