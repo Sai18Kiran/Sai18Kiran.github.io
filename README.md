@@ -1,242 +1,200 @@
-# Sumit Suresh Madhav – Portfolio Website
+# Sai Kiran Reddy Kondreddygari - Portfolio
 
-A modern, JSON-driven portfolio showcasing Data Analytics experience, projects, and skills.
+🌐 **Live**: https://sai18kiran.github.io (Deploy instructions below)
 
-## Live
-
-- Live: GitHub Pages (configure your repository Pages settings)
+## About
+Data Engineer portfolio showcasing 4+ years of experience in building scalable data pipelines, optimizing infrastructure, and enabling real-time analytics across cloud and on-prem environments.
 
 ## Features
+- 📊 **5 Real Data Engineering Projects** with GitHub repository links
+- 🔗 **Verifiable Work** - Direct links to source code for technical review
+- 📱 **Fully Responsive Design** - Mobile-first approach with modern UI
+- 📄 **Downloadable Resume** - Latest PDF with contact information
+- 🎯 **JSON-Driven Content** - Easy updates without touching HTML/CSS
+- ⚡ **GitHub Pages Ready** - Static site optimized for free hosting
 
-- **JSON-Driven Content**: All profile data stored in a single JSON file
-- **Easy Customization**: Change content without touching HTML/CSS
-- **Responsive Design**: Mobile-first approach with 6 breakpoints
-- **Modern UI**: Clean design with smooth animations and gradients
-- **GitHub Pages Ready**: Static site perfect for GitHub Pages hosting
-- **No Build Tools**: Direct static file serving, no compilation needed
+## Projects Showcased
 
-## Quick Start
+### 1. Real-Time IoT Temperature Analytics (Spark & Kafka)
+**GitHub**: https://github.com/Sai18Kiran/spark-and-kafka_iot-data-processing-and-analytics
+- Real-time temperature analysis from U.S. nationwide IoT sensors
+- **Tech**: Apache Spark, Kafka, PySpark, Python, AWS
+- **Metrics**: 10,000 data points, 2,086 sensors, 4 key analytics
 
-1. **Clone/Download** this repository
-2. **Edit** `data/profile.json` with your information (already set for Sumit)
-3. **Deploy** to GitHub Pages or any static hosting service
-4. **Done!** Your portfolio is live
+### 2. Data Pipeline with DBT on GCP
+**GitHub**: https://github.com/Sai18Kiran/data-pipeline-with-dbt-using-airflow-on-gcp
+- Modern data engineering pipeline with Astronomer, DBT, Soda, Metabase
+- **Tech**: Apache Airflow, DBT, Google BigQuery, Docker, GCP
+- **Metrics**: 5 technologies, Star schema, Containerized deployment
 
-## Project Structure
+### 3. Machine Learning Fraud Detection on AWS
+**GitHub**: https://github.com/Sai18Kiran/fraud-detection-using-machine-learning
+- ML-based fraud detection using XGBoost and RandomCutForest
+- **Tech**: AWS SageMaker, Lambda, API Gateway, Kinesis, Python
+- **Metrics**: 284,807 transactions, 2 ML algorithms, Real-time API
 
+### 4. Banking Analytics with PowerBI
+**GitHub**: https://github.com/Sai18Kiran/financial-insights-in-banking-data-using-powerbi
+- Comprehensive banking analytics and visualization platform
+- **Tech**: Power BI, DAX, Excel, Data Modeling, Financial Analytics
+- **Metrics**: 2 datasets, Multi-dimensional analysis, Interactive dashboard
+
+### 5. Real-Time Fraud Detection with Apache Flink
+**GitHub**: https://github.com/Sai18Kiran/lab-fraud-detection
+- Interactive fraud detection system using streaming technologies
+- **Tech**: Apache Flink, Kafka, Docker, Java, TypeScript, Web Interface
+- **Metrics**: Real-time processing, Web UI at localhost:5656, Containerized
+
+## Technical Architecture
+
+### Frontend
+- **Languages**: HTML5, CSS3, JavaScript
+- **Design**: Responsive, Mobile-First (6 breakpoints)
+- **Styling**: Modern UI with smooth animations and gradients
+- **Framework**: Vanilla JS with jQuery for interactions
+
+### Backend
+- **Content Management**: JSON-driven architecture (`data/profile.json`)
+- **Dynamic Loading**: JavaScript profile loader for content injection
+- **Static Generation**: No build tools required, direct file serving
+- **Hosting**: GitHub Pages compatible with `.nojekyll` configuration
+
+### Data Structure
 ```
-├── index.html              # Main HTML template (with placeholders)
+├── index.html              # Main template with placeholders
 ├── data/
-│   └── profile.json       # All your profile data
+│   └── profile.json       # Complete profile data (projects, skills, etc.)
 ├── assets/
 │   ├── css/              # Compiled stylesheets
-│   ├── js/
-│   │   ├── profile-loader.js  # Dynamic content loader
-│   │   └── main.js           # UI interactions
-│   ├── sass/             # Source stylesheets
-│   └── webfonts/         # Icon fonts
-└── images/               # Your images and media
+│   ├── js/               # Profile loader + UI interactions
+│   ├── sass/             # Source stylesheets (SCSS)
+│   ├── sai-profile.jpg   # Professional headshot
+│   ├── Sai_Kiran_Resume.pdf  # Latest resume
+│   └── webfonts/         # Font Awesome icons
+├── images/
+│   ├── org/              # Company logos (UnitedHealth, etc.)
+│   ├── edu/              # University logos (Webster, Bharti)
+│   └── project/          # Project screenshots and media
+└── scripts/              # Deployment automation
 ```
 
-## Customizing Your Profile
+## Skills Highlighted
 
-### 1. Edit Profile Information
+### Programming & Scripting
+Python, SQL, Bash, Scala, JavaScript, TypeScript
 
-Open `data/profile.json` and update the following sections:
+### Data Engineering & Pipelines
+ETL/ELT Pipelines, Data Modeling, Apache Airflow, dbt, Apache Spark, Apache Beam
 
-#### Basic Profile
-```json
-"profile": {
-  "name": "Your Name",
-  "title": "Your Title",
-  "organization": "Your Organization",
-  "profileImage": "images/your-photo.jpg",
-  "cvPath": "assets/Sumit_DA_Resume.pdf"
-}
-```
+### Cloud & Distributed Systems
+AWS (S3, Lambda, Glue, EMR, Redshift, Athena), GCP (BigQuery, Dataflow), Azure Data Factory
 
-#### Bio Sections
-```json
-"bio": {
-  "introduction": "Your introduction with <span class='highlight'>highlighted</span> text...",
-  "background": "Your background and experience...",
-  "researchFocus": "Your research interests..."
-}
-```
+### Streaming & Real-Time Processing
+Apache Kafka, AWS Kinesis, Spark Streaming, Apache Flink, Apache NiFi, Apache Hive
 
-#### Contact & Social Links
-```json
-"contact": {
-  "email": "your.email@example.com",
-  "linkedin": "https://linkedin.com/in/yourprofile",
-  "github": "https://github.com/yourusername",
-  "googleScholar": "https://scholar.google.com/citations?user=YOUR_ID",
-  "website": "https://yourwebsite.com"
-}
-```
+### AI & ML Tooling
+MLflow, TensorFlow, Feature Stores, Jupyter, Hugging Face Transformers, OpenAI APIs, LLMs
 
-#### Publications
-```json
-"publications": [
-  {
-    "id": "unique-id",
-    "title": "Paper Title",
-    "authors": "You et al",
-    "venue": "Conference/Journal",
-    "description": "Brief description of the work",
-    "image": "images/paper-image.png",
-    "links": {
-      "paper": "https://link-to-paper.com",
-      "github": "https://github.com/repo",
-      "status": "Published" // or "In Review"
-    }
-  }
-]
-```
+## Deployment Instructions
 
-#### Projects
-```json
-"projects": [
-  {
-    "id": "project-id",
-    "title": "Project Name",
-    "year": "2024",
-    "shortDescription": "Brief description for card front",
-    "detailedDescription": "Detailed description for card back",
-    "media": {
-      "type": "video", // or "image"
-      "src": "images/demo.mp4",
-      "poster": "images/poster.jpg", // for videos
-      "autoplay": true,
-      "loop": true,
-      "muted": true,
-      "controls": false
-    },
-    "techStack": ["Python", "PyTorch", "React"],
-    "links": {
-      "website": "https://project-site.com",
-      "github": "https://github.com/repo",
-      "details": "#"
-    }
-  }
-]
-```
+### Prerequisites
+1. GitHub account (Sai18Kiran)
+2. Git installed locally
+3. Repository ready for deployment
 
-### 2. Add Your Images
+### Step 1: Create GitHub Repository
+1. Go to https://github.com/Sai18Kiran
+2. Click "New Repository"
+3. **Repository name**: `Sai18Kiran.github.io` (EXACTLY this name for personal pages)
+4. Set to **Public**
+5. **DO NOT** initialize with README (we already have content)
+6. Click "Create repository"
 
-1. Place your profile photo in the `images/` directory
-2. Add project screenshots/videos
-3. Add publication preview images
-4. Update the paths in `profile.json`
-
-### 3. Customize Colors (Optional)
-
-Edit the theme colors in `profile.json`:
-
-```json
-"siteConfig": {
-  "themeColors": {
-    "primaryRed": "#C41230",
-    "lightRed": "#e63946",
-    "darkRed": "#a01828",
-    "textDark": "#2b2d42",
-    "textLight": "#6c757d",
-    "bgLight": "#f8f9fa",
-    "white": "#ffffff"
-  }
-}
-```
-
-## Deployment
-
-GitHub Pages via Actions (no build step). See `README_DEPLOY.md` for step-by-step instructions and DNS records.
-
-## Recent Updates
-
-- ✅ **Complete Portfolio Transformation**: Migrated from previous client to Sumit's Data Analyst profile
-- ✅ **Professional Headshot**: Integrated Sumit's professional photo
-- ✅ **10 Comprehensive Projects**: Added detailed projects showcasing 8+ years of experience + personal development
-- ✅ **Mobile-First Design**: Tested and optimized across all screen sizes
-- ✅ **Production Ready**: Accessibility audited and cross-browser tested
-
-## Portfolio Highlights
-
-- **8+ Years Experience**: JPMorgan Chase, PNC Financial, Humana, Tenet Healthcare, Cybage Software
-- **Technical Skills**: SQL, Python, R, VBA, Tableau, Power BI, AWS, Azure, Advanced Excel, Dimensional Modeling, Statistical Modeling, Signal Processing, Machine Learning
-- **Quantified Achievements**: 12M+ daily transactions, 90% report reduction, 18% forecast accuracy improvement, advanced healthcare analytics, RFM customer segmentation, dimensional database design
-- **10 Detailed Projects**: Professional experience + personal development projects showcasing full-stack data analytics capabilities, from database architecture to advanced ML applications
-- **Industry Expertise**: Financial Services, Healthcare, Automotive, Personal Finance with cross-domain analytical skills
-
-### Local Development
-
+### Step 2: Push Portfolio to GitHub
 ```bash
-# Python 3
-python3 -m http.server 8000
+# Navigate to portfolio directory
+cd "C:\Users\Lenovo\portfolios\sai"
 
-# Python 2
-python -m SimpleHTTPServer 8000
+# Verify git status (should show clean working tree)
+git status
 
-# Node.js
-npx http-server
-
-# Then visit http://localhost:8000
+# Push to GitHub (repository must exist first)
+git push -u origin main
 ```
 
-## Advanced Customization
+### Step 3: Enable GitHub Pages
+1. Go to repository: https://github.com/Sai18Kiran/Sai18Kiran.github.io
+2. Click **Settings** tab
+3. Scroll to **Pages** section (left sidebar)
+4. Under **Source**, select "Deploy from a branch"
+5. Select **Branch**: `main`
+6. Select **Folder**: `/ (root)`
+7. Click **Save**
 
-### Adding New Sections
+### Step 4: Verify Deployment
+1. Wait 2-5 minutes for GitHub Pages to build
+2. Visit: https://sai18kiran.github.io
+3. Verify all features work:
+   - ✅ Navigation links
+   - ✅ Project GitHub links
+   - ✅ Resume download
+   - ✅ Contact information
+   - ✅ Mobile responsiveness
 
-1. Add the section data to `profile.json`
-2. Update `index.html` with placeholder elements
-3. Extend `profile-loader.js` with a new render function
+## Customization Guide
 
-### Modifying Styles
+### Update Profile Information
+Edit `data/profile.json` to modify:
+- Personal details and contact info
+- Work experience and achievements
+- Skills and certifications
+- Project descriptions and links
+- Education background
 
-- Edit SASS files in `assets/sass/`
-- Or directly modify `assets/css/main.css`
-- Custom styles can be added in `index.html` `<style>` section
+### Add New Projects
+```json
+{
+  "id": "new-project-id",
+  "title": "Project Title",
+  "year": "2024",
+  "shortDescription": "Brief description for cards",
+  "detailedDescription": "Detailed description with achievements",
+  "techStack": ["Technology", "Stack", "Used"],
+  "links": {
+    "github": "https://github.com/Sai18Kiran/repo-name"
+  },
+  "metrics": [
+    { "label": "Metric Name", "value": "Value" }
+  ]
+}
+```
 
-### Adding Features
+### Update Styling
+- Modify `assets/sass/` files for design changes
+- Recompile CSS: `sass assets/sass/main.scss assets/css/main.css`
+- Colors configured in `data/profile.json` under `siteConfig.themeColors`
 
-- Extend `profile-loader.js` for new functionality
-- Add interactive features in `assets/js/main.js`
-- Maintain responsive design principles
+## Maintenance
 
-## Tips
+### Regular Updates
+- **Monthly**: Add new projects and update achievements
+- **Quarterly**: Update skills and certifications
+- **Annually**: Refresh design and add new features
 
-- **Images**: Optimize images for web (use WebP/JPEG, compress)
-- **Videos**: Keep videos short and compressed (MP4 H.264)
-- **Content**: Use HTML in descriptions for formatting
-- **Performance**: Lazy load images/videos for better performance
-- **SEO**: Update meta tags in `index.html` for better search visibility
+### Performance Optimization
+- Optimize images in `images/` directory
+- Minimize JSON file size
+- Monitor Core Web Vitals via Google PageSpeed Insights
 
-## Browser Support
-
-- Chrome/Edge (latest)
-- Firefox (latest)
-- Safari (latest)
-- Mobile browsers (iOS Safari, Chrome Mobile)
-
-## Credits
-
-- Base template: [Editorial by HTML5 UP](https://html5up.net)
-- Icons: [Font Awesome](https://fontawesome.com)
-- Fonts: Open Sans, Roboto Slab (Google Fonts)
+## Contact Information
+- **Email**: kondreddygarisaikiranreddy18@gmail.com
+- **LinkedIn**: https://linkedin.com/in/sai-kiran-reddy-kondreddygari
+- **Phone**: +1 (917) 704-9894
+- **Location**: Saint Louis, MO
 
 ## License
-
-- Template: Creative Commons Attribution 3.0
-- Your content: Your own copyright
-- Modifications: Open source
-
-## Support
-
-For issues or questions:
-1. Check existing GitHub issues
-2. Review the documentation
-3. Create a new issue with details
+This portfolio template is based on Editorial by HTML5 UP (html5up.net) and is free for personal and commercial use under the CCA 3.0 license.
 
 ---
 
-Made for Salesforce professionals and administrators# Personal_site
-# Personal_site
+🚀 **Ready for deployment!** Follow the deployment instructions above to launch at https://sai18kiran.github.io
