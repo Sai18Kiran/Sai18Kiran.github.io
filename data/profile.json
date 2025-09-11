@@ -56,7 +56,7 @@
       "authors": "Mphasis",
       "venue": "Jan 2021 – Dec 2022",
       "description": "<div class='impact-metrics'><span class='metric'>17 Pipelines Migrated</span><span class='metric'>73% ↑ Reliability</span><span class='metric'>32% ↓ Storage Costs</span></div><br/><strong>Key Achievements:</strong><br/>• Migrated <strong>17 batch pipelines</strong> to Apache Airflow and Spark on GCP, <span class='highlight'>improving pipeline reliability by 73% and reducing job runtime</span><br/>• Built enterprise data warehouse on <strong>BigQuery for banking client</strong>, supporting 100+ dashboards and handling <strong>4TB of structured financial transaction data</strong><br/>• Deployed streaming fraud detection pipeline using <strong>Kafka and Flink</strong>, achieving <span class='highlight'>&lt;30-second latency and flagging ~1,200 suspicious transactions daily</span><br/>• Reduced data storage costs by <strong>32%</strong> through partition pruning and format optimization for Parquet files across multiple GCS data zones<br/>• Created <strong>Jenkins-based CI/CD pipeline</strong> and deployed infrastructure with Terraform, <span class='highlight'>cutting provisioning time from 2 days to under 4 hours</span><br/>• Designed over <strong>25 reusable dbt models</strong> for business logic transformation and lineage tracking, improving developer onboarding and cross-team collaboration<br/>• Documented <strong>30+ datasets</strong> and created interactive lineage maps in Confluence, <span class='highlight'>improving query troubleshooting time by 40%</span>",
-      "image": "images/cybage-software-logo.png",
+      "image": "images/org/mphasis.png",
       "links": { "paper": null, "github": null, "status": null }
     },
     {
