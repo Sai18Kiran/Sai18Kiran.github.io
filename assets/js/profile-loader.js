@@ -594,16 +594,10 @@
 
     function getSkillsCategories() {
         return [
-            { key: 'programmingScriptingLanguages', label: 'Programming & Scripting Languages' },
-            { key: 'dataEngineeringPipelineDevelopment', label: 'Data Engineering & Pipeline Development' },
-            { key: 'databasesStorage', label: 'Databases & Storage' },
-            { key: 'cloudDistributedSystems', label: 'Cloud & Distributed Systems' },
-            { key: 'streamingRealTimeProcessing', label: 'Streaming & Real-Time Processing' },
-            { key: 'aiMlTooling', label: 'AI & ML Tooling' },
-            { key: 'dataScienceCollaboration', label: 'Data Science Collaboration' },
-            { key: 'infrastructureDevOps', label: 'Infrastructure & DevOps' },
-            { key: 'versionControlCollaboration', label: 'Version Control & Collaboration' },
-            { key: 'softSkills', label: 'Soft Skills' }
+            { key: 'financialModelingValuation', label: 'Financial Modeling & Valuation' },
+            { key: 'financialAnalysisReporting', label: 'Financial Analysis & Reporting' },
+            { key: 'dataAnalysisTools', label: 'Data Analysis & Tools' },
+            { key: 'healthcareInvestmentFinance', label: 'Healthcare & Investment Finance' }
         ];
     }
 
@@ -635,16 +629,10 @@
     function getCategoryIcon(key) {
         const svgProps = 'width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"';
         const icons = {
-            programmingScriptingLanguages: `<svg ${svgProps}><path d="M16 18l6-6-6-6"/><path d="M8 6L2 12l6 6"/></svg>`,
-            dataEngineeringPipelineDevelopment: `<svg ${svgProps}><path d="M3 7h6v6H3zM9 10h6M15 10v4M15 14h6"/></svg>`,
-            databasesStorage: `<svg ${svgProps}><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v6c0 1.7 3.6 3 8 3s8-1.3 8-3V5"/><path d="M4 11v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg>`,
-            cloudDistributedSystems: `<svg ${svgProps}><path d="M18 18H7a4 4 0 010-8 5 5 0 019.5 1.5A3.5 3.5 0 0118 18z"/></svg>`,
-            streamingRealTimeProcessing: `<svg ${svgProps}><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 4-5"/></svg>`,
-            aiMlTooling: `<svg ${svgProps}><circle cx="7" cy="12" r="3"/><circle cx="17" cy="7" r="3"/><circle cx="17" cy="17" r="3"/><path d="M10 12h4M14 7l-1 2M14 17l-1-2"/></svg>`,
-            dataScienceCollaboration: `<svg ${svgProps}><rect x="3" y="10" width="4" height="10"/><rect x="10" y="6" width="4" height="14"/><rect x="17" y="3" width="4" height="17"/></svg>`,
-            infrastructureDevOps: `<svg ${svgProps}><path d="M12 2l7 4v6c0 5-3 8-7 10-4-2-7-5-7-10V6l7-4z"/><path d="M9 12l2 2 4-4"/></svg>`,
-            versionControlCollaboration: `<svg ${svgProps}><circle cx="6" cy="6" r="2"/><circle cx="6" cy="18" r="2"/><circle cx="18" cy="12" r="2"/><path d="M8 6h6a4 4 0 014 4v0M8 18h6a4 4 0 004-4v0"/></svg>`,
-            softSkills: `<svg ${svgProps}><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>`
+            financialModelingValuation: `<svg ${svgProps}><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 4-5"/><circle cx="18" cy="9" r="2"/></svg>`,
+            financialAnalysisReporting: `<svg ${svgProps}><rect x="3" y="10" width="4" height="10"/><rect x="10" y="6" width="4" height="14"/><rect x="17" y="3" width="4" height="17"/></svg>`,
+            dataAnalysisTools: `<svg ${svgProps}><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>`,
+            healthcareInvestmentFinance: `<svg ${svgProps}><path d="M12 2l7 4v6c0 5-3 8-7 10-4-2-7-5-7-10V6l7-4z"/><path d="M12 8v4M10 10h4"/></svg>`
         };
         return icons[key] || `<svg ${svgProps}><circle cx="12" cy="12" r="9"/></svg>`;
     }
