@@ -3,8 +3,7 @@
 🌐 **Live**: https://sai18kiran.github.io (Deploy instructions below)
 
 ## About
-Data Engineer portfolio showcasing 4+ years of experience in building scalable data pipelines, optimizing infrastructure, and enabling real-time analytics across cloud and on-prem environments.
-
+Financial Analyst portfolio showcasing 4+ years of experience in financial modeling, investment analysis, portfolio management, and strategic financial planning across diverse industry sectors.
 ## Features
 - 📊 **5 Real Data Engineering Projects** with GitHub repository links
 - 🔗 **Verifiable Work** - Direct links to source code for technical review
